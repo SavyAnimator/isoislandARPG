@@ -1,0 +1,11 @@
+diff a/resources/lang/en/validation.php b/resources/lang/en/validation.php	(rejected hunks)
+@@ -137,6 +137,9 @@
+         'artist_url.*'         => [
+             'url' => 'One or more of the artist URL(s) is invalid.',
+         ],
++        'g-recaptcha-response' => [
++            'recaptchav3' => 'A captcha error has occurred. If you believe this is in error, please contact the site administrator.',
++        ],
+     ],
+ 
+     /*
